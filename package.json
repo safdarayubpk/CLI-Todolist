@@ -1,10 +1,10 @@
 {
-  "name": "cli-todolist",
-  "version": "1.0.0",
+  "name": "@safdar_ayub/cli-todolist",
+  "version": "1.0.3",
   "description": "A simple and intuitive command-line todo list application built with TypeScript. Easily manage your tasks with features for adding, updating, and deleting todo items. Stay organized and boost your productivity with this lightweight CLI tool.",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": "./index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -15,6 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@safdar_ayub/cli-todolist": "^1.0.3",
     "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
   }
 }
